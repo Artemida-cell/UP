@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=10">
     <title>Кренделёк</title>    
-    <link rel="stylesheet" href="css/style.css">
-   
+    <link rel="stylesheet" href="css/style.css">  
     <script src="css/javascripts.js"></script>
 </head>
 <body>
@@ -73,17 +72,19 @@
         </div>
 
         <footer class="footer">
-            <p style="font-size: 20px; margin: 0; padding: 10px 1em;">Подписаться на рассылку:<br>
-            <input type="text" placeholder="Ваша электронная почта" name="email" value aria-required="true" aria-invalid="true" class="textbox1">
-            <button type="submit" class="button1">ОТПРАВИТЬ</button><br>
-            Мы в социальных сетях:<br>
-            <a href="https://www.facebook.com" class="" target="_blank"><img src="css/facebook.png"></a>
-            <a href="https://www.youtube.com/?reload=9&gl=RU&hl=ru" class="" target="_blank"><img src="css/youtube.png"></a>
-            <a href="https://www.instagram.com/ka4elya_/" class="" target="_blank"><img src="css/instagram.png"></a>
-            <a href="https://www.facebook.com" class="" target="_blank"><img src="css/facebook.png"></a>
-            <a href="https://vk.com/artemidacell" class="" target="_blank"><img src="css/%D0%B2%D0%BA.jpg"></a>
-            <a href="https://twitter.com" class="" target="_blank"><img src="css/twitter.png"></a></p>
-            <p class="p3foot">© 2020 Кренделёк. Все права защищены</p>
+            <div style="font-size: 20px; margin: 0; padding: 10px 1em;">Подписаться на рассылку:<br>
+                <form method="POST" name="mail" onSubmit="return checkmail()">
+                    <input type="text" placeholder="Ваша электронная почта" name="address" value aria-required="true" aria-invalid="true" class="textbox1">
+                    <button type="submit" class="button1" name="B1">ОТПРАВИТЬ</button><br>
+                </form>
+                Мы в социальных сетях:<br>
+                <a href="https://www.facebook.com" class="" target="_blank"><img src="css/facebook.png"></a>
+                <a href="https://www.youtube.com/?reload=9&gl=RU&hl=ru" class="" target="_blank"><img src="css/youtube.png"></a>
+                <a href="https://www.instagram.com/ka4elya_/" class="" target="_blank"><img src="css/instagram.png"></a>
+                <a href="https://www.facebook.com" class="" target="_blank"><img src="css/facebook.png"></a>
+                <a href="https://vk.com/artemidacell" class="" target="_blank"><img src="css/%D0%B2%D0%BA.jpg"></a>
+                <a href="https://twitter.com" class="" target="_blank"><img src="css/twitter.png"></a></div>
+                <p class="p3foot">© 2020 Кренделёк. Все права защищены</p>
             
         </footer>
     </div>  
