@@ -5,6 +5,10 @@
     
 }
 
+@media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} }
+@media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} }
+@media screen and (max-width: 992px) { div. contentblock {width: 970px;} }
+
 input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
 input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
 input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
@@ -31,8 +35,7 @@ html, body {
     font-size: 14px;
     line-height: 1.4;
     color: #333;
-    background: url(%D1%84%D0%BE%D0%BD%204.jpg);
-    
+    background: url(%D1%84%D0%BE%D0%BD%204.jpg); 
 }
 
 .header {
@@ -45,6 +48,7 @@ html, body {
     top: 0;
     position: fixed;
     display: inline-block;
+    
 }
 /*
 .head {
@@ -109,7 +113,6 @@ a:active {
     letter-spacing: 1px;
     font-size: 24px;
     color: #222222; 
-   
 }
 
 p {
@@ -146,14 +149,14 @@ li {
     outline: 0;
 */
     
-     color: white;
-  text-decoration: none;
-  user-select: none;
-  padding: 0.5em 1.5em 0.5em 1.5em;
-  outline: none;
-  border: 2px solid;
-  border-radius: 5px;
-  transition: 0.2s;
+    color: white;
+    text-decoration: none;
+    user-select: none;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 5px;
+    transition: 0.2s;
     font-size: 10pt;
     text-align: center;
     background: rgb(254, 76, 164);
@@ -248,14 +251,14 @@ img:nth-child(4) {
     /* совсем маленькие экраны андроидов */
         .container_slider_css{
             width: 100%;
-            height: auto;
+            height: 190;
     }
 }
  
 @media(min-width:321px) and (max-width:480px) {
     /* популярные разрешения смартфонов уже более позднего поколения андроид */
     .container_slider_css{
-            width: 80%;
+            width: 100%;
             height: 190px;
      }
 }
