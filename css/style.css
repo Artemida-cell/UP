@@ -203,13 +203,14 @@ li {
     display: inline-block;
     text-align: center;
     padding: 1em;
+    transition:width 0.5s ease;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic|Playfair+Display+SC:400,700&subset=latin,cyrillic);
 
 .container_slider_css {
     width: 100%;
-    height: 400px;
+    height: 500px;
     overflow: hidden;
     position: relative;
     margin-top: 50px;
@@ -261,4 +262,25 @@ img:nth-child(4) {
             width: 100%;
             height: 190px;
      }
+}
+
+.con2 {
+    border-top: 2px solid black;
+}
+.content1 {
+	padding: 15px; /* Поля вокруг текста */
+	background: #C71585; /* Градиентовая заливка фона */
+	float: left; /* Обтекание по левому краю */
+	width: 40%; /* Высота */
+	font: 16pt Arial, Helvetica, sans-serif; /* Шрифт */
+	text-align: center; /* Выравнивание текста по центру */
+	border-right: 1px solid; /* Граница справа */
+	height: 420px; /* Ширина */
+	color: #FFFFFF; /* Цвет */
+	line-height: 2.0; /* Расстояние межу строками */
+    
+}
+.karta {
+	float: left; /* Обтекание по левому краю */
+	width: 58%; /* ширина */
 }
