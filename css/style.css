@@ -191,7 +191,7 @@ li {
     font-weight: 500;
     letter-spacing: 1px;
     font-size: 24px;
-    color: #222222;
+    
     border: 2px solid Violet;
     padding-bottom: 3px;
     color: violet;
@@ -203,7 +203,10 @@ li {
     padding: 1em;
     transition:width 0.5s ease;
 }
-
+.logo:visited {
+     color: violet;
+     border: 2px solid Violet;
+}
 @import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic|Playfair+Display+SC:400,700&subset=latin,cyrillic);
 
 .container_slider_css {
