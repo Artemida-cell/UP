@@ -168,9 +168,7 @@ li {
     color: white;
 }
 
-.button1:active {
-    background: rgb(254, 76, 164)
-}
+
 
 .textbox1 {
     padding: 0.5em 1em 0.5em 1em;
@@ -282,5 +280,5 @@ img:nth-child(4) {
 }
 .karta {
 	float: left; /* Обтекание по левому краю */
-	width: 58%; /* ширина */
+	width: 60%; /* ширина */
 }
